@@ -12,7 +12,8 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-
+  var arr = $('img:last')
+  return arr
 }
 
 function ninjaBabySelector() {
